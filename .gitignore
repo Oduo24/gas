@@ -1,0 +1,68 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.pyo
+*.pyd
+
+# Environment variables & secrets
+.env
+*.env
+config.json
+secrets.json
+
+# Compiled files & Caches
+*.out
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# Python packaging
+build/
+dist/
+*.egg
+MANIFEST
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Migrations (if using Django or Flask-Migrate)
+migrations/
+*/migrations/*.pyc
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+
+# Node.js dependencies (if using frontend)
+node_modules/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# AWS & Deployment
+.aws/
+.terraform/
